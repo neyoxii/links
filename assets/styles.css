@@ -7,7 +7,7 @@
 }
 
 :root {
-  --color-bg: #1a1a1a;
+  --color-bg: #ffffff;
   --color-empty: #00000000;
   --gradient-bg: linear-gradient(to bottom, #414AFF, #87D1FF);
 
@@ -42,7 +42,7 @@ body {
   position: fixed;
   width: 100dvw;
   height: 100dvh;
-  scale: 1.2;
+  scale: 1.5;
   z-index: -1;
 }
 .bg-blur {
@@ -226,6 +226,7 @@ body {
 
 @media (max-width: 600px) {
   .profile-avatar {
+    scale: 1.25;
     animation: avatar-start linear forwards;
     animation-timeline: scroll();
     animation-range: 0px 300px;
