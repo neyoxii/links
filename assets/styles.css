@@ -63,7 +63,7 @@ body {
   justify-content: flex-start;
   flex-grow: 1;
   margin-top: 15vh;
-  padding-bottom: 400px;
+  padding-bottom: 1400px;
   color: var(--profile-name-color);
   text-align: center;
   animation: fade-in 1.0s ease forwards;
@@ -197,7 +197,7 @@ body {
   }
   to {
     opacity: 0;
-    translate: 0 -20px;
+    translate: 0 -100px;
   }
 }
 
@@ -236,11 +236,11 @@ body {
   .profile-avatar {
     animation: avatar-start linear forwards, avatar-mid linear forwards;
     animation-timeline: scroll();
-    animation-range: 0vh, 10vh, 10vh, 20vh;
+    animation-range: 0px 150px, 150px 300px;
   }
   .profile-header {
     animation: profile-header linear forwards;
     animation-timeline: scroll();
-    animation-range: 0vh, 20vh;
+    animation-range: 0px 300px;
   }
 }
