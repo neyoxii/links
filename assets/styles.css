@@ -63,7 +63,7 @@ body {
   justify-content: flex-start;
   flex-grow: 1;
   margin-top: 15vh;
-  padding-bottom: 1400px;
+  padding-bottom: 400px;
   color: var(--profile-name-color);
   text-align: center;
   animation: fade-in 1.0s ease forwards;
