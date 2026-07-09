@@ -61,7 +61,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-grow: 1;
-  margin-top: 15vh;
+  margin-top: 10vh;
   padding-bottom: 400px;
   color: var(--profile-name-color);
   text-align: center;
@@ -219,15 +219,5 @@ body {
   }
   to {
     opacity: 1;
-  }
-}
-
-/* ---------------- ТЕЛЕФОНЫ ----------------*/
-
-@media (max-width: 600px) {
-  .profile-header {
-    animation: profile-header linear forwards;
-    animation-timeline: scroll();
-    animation-range: 0px 300px;
   }
 }
