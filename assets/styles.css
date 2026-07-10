@@ -38,6 +38,11 @@ body {
   margin: 0;
 }
 
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 /* ---------------- ПРОФИЛЬ ----------------*/
 
 .profile {
