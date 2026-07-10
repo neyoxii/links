@@ -24,6 +24,7 @@
 html {
   height: 100dvh;
   box-sizing: border-box;
+  overscroll-behavior-y: none;
 }
 
 body {
@@ -33,6 +34,7 @@ body {
   font-family: 'Inter', sans-serif;
   min-height: 100dvh;
   margin: 0;
+  overscroll-behavior-y: none;
 }
 
 .bg {
