@@ -60,7 +60,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-grow: 1;
-  margin-top: 10vh;
+  margin: 10vh 0;
   color: var(--profile-name-color);
   text-align: center;
   animation: fade-in 1.0s ease forwards;
