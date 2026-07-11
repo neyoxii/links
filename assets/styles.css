@@ -81,8 +81,8 @@ img {
 }
 
 .profile h2 {
-  margin: 10px 0 5px;
-  font-size: 23px;
+  margin: 10px 5px 5px 5px;
+  font-size: 20px;
   font-weight: normal;
   font-style: italic;
   color: var(--profile-desc-color);
